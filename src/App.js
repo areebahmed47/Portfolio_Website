@@ -6,10 +6,11 @@ import Service from './components/service/Service'
 import MyWork from './components/MyWork/MyWork'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-
+import { BrowserRouter as Router } from "react-router-dom";
 function App() {
   return (
-    <div>
+    <>
+    <Router basename="/portfolio_website">
       <Navbar/>
       <Hero/>
       <About/>
@@ -17,7 +18,8 @@ function App() {
       <MyWork/>
       <Contact/>
       <Footer/>
-    </div>
+      </Router>
+      </>
   )
 }
 

@@ -36,10 +36,10 @@ function Navbar() {
         <li><AnchorLink className='anchor-link' offset={50} href="#contact"> <p onClick={()=>setmenu("contact")}>Contact</p>  </AnchorLink>{menu==="contact"?<img src={underline} alt='' />:<></>}</li>
       </ul>
       <div className="nav_connect"><a className='anchor-link' href="#contact"><ul>
-        <a href="https://www.linkedin.com/in/hafiz-areeb-ahmed/" target='blank'><li><i class="fa-brands fa-linkedin"></i></li></a>
-       <a href="https://www.facebook.com/xtylish.bacha.1654700" target='blank'> <li><i class="fa-brands fa-facebook"></i></li></a>
-       <a href="https://github.com/areebahmed47" target='blank'> <li><i class="fa-brands fa-github"></i></li></a>
-        <a href="mailto:areebahmed1018@gmail.com" target='blank'><li><i class="fa-brands fa-google"></i></li></a>
+        <a href="https://www.linkedin.com/in/hafiz-areeb-ahmed/" target='blank'><li><i className="fa-brands fa-linkedin"></i></li></a>
+       <a href="https://www.facebook.com/xtylish.bacha.1654700" target='blank'> <li><i className="fa-brands fa-facebook"></i></li></a>
+       <a href="https://github.com/areebahmed47" target='blank'> <li><i className="fa-brands fa-github"></i></li></a>
+        <a href="mailto:areebahmed1018@gmail.com" target='blank'><li><i className="fa-brands fa-google"></i></li></a>
         </ul></a>
       </div>
     </div>
