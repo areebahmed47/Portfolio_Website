@@ -1,6 +1,6 @@
 import React from 'react'
 import "./footer.css"
-import them_pattern from "../../assets/theme_pattern.svg"
+// import them_pattern from "../../assets/theme_pattern.svg"
 
 function Footer() {
   return (
@@ -9,7 +9,7 @@ function Footer() {
         <div className="footer-top-left">
         <div className='footer-title'>
       <h1>AReeB</h1>
-      <img src={them_pattern} alt="" />
+      {/* <img src={them_pattern} alt="" /> */}
     </div>
             <p>I am Areeb Ahmed. JavaScript Developer with 1 year of experience. Let's build something great together!</p>
         </div>

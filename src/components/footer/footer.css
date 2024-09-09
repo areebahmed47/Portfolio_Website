@@ -27,6 +27,10 @@
   
     font-size: 70px;
     font-weight: 600;
+    background: linear-gradient(267deg , #DA7C25 50.06% , #B923E1 128.06%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .footer-title img {

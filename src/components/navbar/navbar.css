@@ -49,17 +49,17 @@
     margin: auto;
 }
 
-.anchor-link{
+.nav-connect{
     text-decoration: none;
     color: white;
 }
-.anchor-link ul{
+.nav-connect ul{
  list-style: none;
  display: flex;
  gap: 16px;
  font-size: 25px;
 }
-.anchor-link ul li{
+.nav-connect ul li{
     background: linear-gradient(267deg , #DA7C25 10.36% , #B923E1 102.06%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -67,7 +67,7 @@
      transition: 0.3s;
     
 }
-.anchor-link ul li:hover{
+.nav-connect ul li:hover{
     transform: scale(1.25);
     transition: 0.4s;
 }
@@ -127,7 +127,7 @@
     .navbar{
         margin: 20px 50px;
     }
-    .nav_connect{
+    .nav-connect{
         display: none;
     }
 
